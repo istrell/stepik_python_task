@@ -1,5 +1,4 @@
-s = str( input())
-
+s = str( input () )
 g = sum( map (int, s[1] + s[2] + s[0]))
 d = sum( map (int, s[3] + s[4] + s[5]))
 if g == d:
